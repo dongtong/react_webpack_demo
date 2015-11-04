@@ -2,6 +2,17 @@
 
 ###使用webpack基础构建
 
+Webpack扩展require,允许用户使用加载器(loader)自定义行为。同样也可以运用于CSS中的@import。Webpack为运行任务提供了一套插件,
+如minifying, localization, hot loading等等。
+
+为什么使用Webpack? 
+
+1. webpack解决了一些打包困难。
+2. 支持热模块替换(Hot Module Replacement <HMR>), 
+   这个特性在react-hot-loader有使用到。LiveReload,Browsersync这些工具可以监控文件变化刷新浏览器，HMR更深入一步，可以使React程    序保持状态。看似简单，但是实际中确实解决大问题。
+3. 打包具有扩展性。可以将打包分开，在程序需要的时候加载
+4. 可以住人hash key到打包文件名上。
+
 * CLI
 
 	1. 安装(全局安装): 可以在全局环境下使用webpack cli命令
