@@ -1,2 +1,5 @@
-# react_webpack_demo
-Use webpack to build react application
+# React with Webpack
+
+###参考资料
+
+1. https://fakefish.github.io/react-webpack-cookbook/
